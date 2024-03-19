@@ -24,7 +24,7 @@
   }
 
   .titulo-principal{
-    text-align: center;
+    text-align: left;
     width: 100%;
     font-size: 32px;
   }
@@ -59,6 +59,10 @@
     border-bottom: 4px solid var(--verde);
   }
 
+  .abas-textos{
+    background-color: var(--texto-fundo);
+  }
+
   @media screen and (min-width: 768px) {
     .botoes{
       display: flex;
@@ -73,5 +77,5 @@
     }
   
   }
-  
+
   
